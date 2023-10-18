@@ -2,8 +2,8 @@ import pytest
 from pathlib import Path
 import pandas as pd
 
-from slf import SLF
-from slf_gui import run
+from storeyloss.slf import SLF
+from storeyloss.slf_gui import run
 
 path = Path(__file__).resolve().parent
 

@@ -62,10 +62,10 @@ class Root(tk.Tk):
         self.default_font = "Helvetica"
         self.option_add("*Font", self.default_font)
 
-        # Defining title and icon of the toolbox
-        self.title("Storey Loss Function Generator")
-        self.ICON_PATH = self.DIR / "icon.ico"
-        self.iconbitmap(self.ICON_PATH)
+        # # Defining title and icon of the toolbox
+        # self.title("Storey Loss Function Generator")
+        # self.ICON_PATH = self.DIR / "icon.ico"
+        # self.iconbitmap(self.ICON_PATH)
 
         # Geometry of the initial window
         self.geometry("250x250")

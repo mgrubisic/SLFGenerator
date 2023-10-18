@@ -42,6 +42,8 @@ Considerations for double counting should be done at the input level and the con
 
 ## Example application with UI
 
+Notice: The UI is outdated, and is not recommended for use.
+
     import storeyloss
 
     storeyloss.run()
